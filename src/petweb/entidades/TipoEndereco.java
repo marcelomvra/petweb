@@ -10,7 +10,7 @@ package petweb.entidades;
  *
  * @author Marcelo
  */
-public enum TipoTelefone {
+public enum TipoEndereco {
     Residencial,
     Comercial
 }

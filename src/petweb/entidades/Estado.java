@@ -10,10 +10,10 @@ package petweb.entidades;
  *
  * @author Marcelo
  */
-public class Pais {
+public class Estado {
     private Long id;
-    private String nome;
-    private String ddi;
+    private String nome; 
+    private String uf;
 
     public Long getId() {
         return id;
@@ -31,11 +31,12 @@ public class Pais {
         this.nome = nome;
     }
 
-    public String getDdi() {
-        return ddi;
+    public String getUf() {
+        return uf;
     }
 
-    public void setDdi(String ddi) {
-        this.ddi = ddi;
+    public void setUf(String uf) {
+        this.uf = uf;
     }
+    
 }

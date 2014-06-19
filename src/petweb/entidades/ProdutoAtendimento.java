@@ -10,7 +10,15 @@ package petweb.entidades;
  *
  * @author Marcelo
  */
-public enum TipoTelefone {
-    Residencial,
-    Comercial
+public class ProdutoAtendimento {
+
+    private double quantidade;
+
+    public double getQuantidade() {
+        return quantidade;
+    }
+
+    public void setQuantidade(double quantidade) {
+        this.quantidade = quantidade;
+    }    
 }

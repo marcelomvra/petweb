@@ -10,7 +10,6 @@ package petweb.entidades;
  *
  * @author Marcelo
  */
-public enum TipoTelefone {
-    Residencial,
-    Comercial
+public class EnderecoFabricante {
+    
 }

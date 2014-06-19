@@ -10,10 +10,11 @@ package petweb.entidades;
  *
  * @author Marcelo
  */
-public class Pais {
+public class Animal {
+
     private Long id;
-    private String nome;
-    private String ddi;
+    private String peso;
+    private String tamanho;
 
     public Long getId() {
         return id;
@@ -23,19 +24,19 @@ public class Pais {
         this.id = id;
     }
 
-    public String getNome() {
-        return nome;
+    public String getPeso() {
+        return peso;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
+    public void setPeso(String peso) {
+        this.peso = peso;
     }
 
-    public String getDdi() {
-        return ddi;
+    public String getTamanho() {
+        return tamanho;
     }
 
-    public void setDdi(String ddi) {
-        this.ddi = ddi;
+    public void setTamanho(String tamanho) {
+        this.tamanho = tamanho;
     }
 }
